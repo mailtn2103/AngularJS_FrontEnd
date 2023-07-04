@@ -1,0 +1,60 @@
+{
+    "sanPhamHot": [
+        {
+            "id": 1,
+            "ten": "Charme So Sexy 100ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 690000,
+            "image": "images/SO_SEXY_100ML20201024201039812.jpg"
+        },
+        {
+            "id": 2,
+            "ten": "Good Charme Boss 100ml",
+            "danhMuc": "Nước hoa nam",
+            "gia": 1200000,
+            "image": "images/nuoc-hoa-charme-boss-100ml_SP7.jpg"
+        },
+        {
+            "id": 3,
+            "ten": "Good Charme Pink Girl 50ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 640000,
+            "image": "images/nuoc-hoa-good-charme-pink-girl_SP5.jpg"
+        },
+        {
+            "id": 4,
+            "ten": "Charme Best Girl 100ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 690000,
+            "image": "images/nuoc-hoa-charme-best-girl_SP4.jpg"
+        },
+        {
+            "id": 5,
+            "ten": "Charme Pinnacle 100ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 700000,
+            "image": "images/Nu/pinnacle__1_20201024193458593.jpg"
+        },
+        {
+            "id": 6,
+            "ten": "Charme Only Love 50ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 520000,
+            "image": "images/Nu/Onlylove20210311025321637.png"
+        },
+        {
+            "id": 7,
+            "ten": "Charme Chance 30ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 350000,
+            "image": "images/Nu/chance20201024200856158.jpg"
+        },
+        {
+            "id": 8,
+            "ten": "Charme Trust 50ml",
+            "danhMuc": "Nước hoa nữ",
+            "gia": 850000,
+            "image": "images/Nu/TRUST_50ML20201024192951933.jpg"
+        }
+    ]
+}

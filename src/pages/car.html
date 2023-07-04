@@ -1,0 +1,54 @@
+<article class="container mb-5 mt-3">
+    <div style="display: table; margin: auto;"><br>
+        <h3 style="letter-spacing: 5px; color: rgba(0, 0, 0, 0.671);">SẢN PHẨM NƯỚC HOA CHARME XE HƠI
+          <hr color="orange" width="250px"><br>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <form action="" name="form" ng-submit="onSubmit($event)">
+                <div class="mb-3">
+                    <input type="text" value="{{car.id}}" ng-model="id" style="display: none;" />
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Tên</label>
+                    <input type="text" class="form-control" required ng-model="car.ten" name="ten">
+                    <small ng-show="form.ten.$touched && form.ten.$invalid" class="text-danger">Chưa nhập tên sản phẩm</small>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Giá</label>
+                    <input type="number" min="0" class="form-control" required ng-model="car.gia" name="gia">
+                    <small ng-show="form.gia.$touched && form.gia.$invalid" class="text-danger">Nhập giá</small>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Hình ảnh</label>
+                    <input type="text" class="form-control" required ng-model="car.image" name="image">
+                    <small ng-show="form.image.$touched && form.image.$invalid" class="text-danger">Chưa nhập hình ảnh</small>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Sửa">
+                <input type="submit" class="btn btn-primary" value="Thêm">
+                <input type="submit" class="btn btn-primary" value="Xóa">
+                
+            </form>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>TÊN</th>
+                        <th>GIÁ</th>
+                        <th>Hình ảnh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="s in listCar" ng-click ="selectPro($index)">
+                        <td>{{s.id}}</td>
+                        <td>{{s.ten}}</td>
+                        <td>{{s.gia}}</td>
+                        <td><img src="{{s.image}}" alt="" width="100px" height="100px"></td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</article>

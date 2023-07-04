@@ -1,0 +1,89 @@
+
+    <div>
+        <article>
+            <div class="container"><br>
+                <div>
+                    <a href="#CuaHang" class=" text-dark">Danh Mục /</a>
+                    <a href="#CharmeNam" class=" text-dark">Nước Hoa Charme Nam</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <br>
+                        <h5>DANH MỤC SẢN PHẨM</h5>
+                        <hr color="purple" width="40px" size="5px" align="left" />
+                        <div>
+                            <a href="#CharmeNam" class="text-decoration-none  font-weight-bold"
+                                style="color: rgb(110, 111, 112);">Nước Hoa Charme Nam</a>
+                            <hr width="250px" align="left">
+                            <a href="#CharmeNu" class="text-decoration-none font-weight-bold"
+                                style="color: rgb(110, 111, 112);">Nước Hoa Charme Nữ</a>
+                            <hr width="250px" align="left">
+                            <a href="#CharmeKid" class="text-decoration-none font-weight-bold"
+                                style="color: rgb(110, 111, 112);">Nước Hoa Trẻ Em Good Charme</a>
+                            <hr width="250px" align="left">
+                            <a href="#CharmeCar" class="text-decoration-none font-weight-bold"
+                                style="color: rgb(110, 111, 112);">Nước Hoa Xe Hơi</a>
+                            <hr width="250px" align="left">
+                            <a href="#CharmeMyPham" class="text-decoration-none font-weight-bold"
+                                style="color: rgb(110, 111, 112);">Mỹ Phẩm</a>
+                            <hr width="250px" align="left">
+                        </div><br>
+                        <div>
+                            <h5>NƯỚC HOA CHARME NAM LUXURY</h5>
+                            <hr color="purple" width="40px" size="5px" align="left" />
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/sWsxWxwt3bg"
+                                title="Nước Hoa Charme Nam Luxury #shorts" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div><br><br>
+                        <div>
+                            <h5>NƯỚC HOA CHARME GUITITY 50ml</h5>
+                            <hr color="purple" width="40px" size="5px" align="left" />
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/gnn5tFmTY5Y"
+                                title="Nước Hoa Charme Guitity 50ml" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <style>
+                                .zoom {
+
+                                    padding: 0px;
+                                    transition: transform .3s;
+                                    width: 160px;
+                                    height: 160px;
+                                    margin: auto;
+                                }
+
+                                .zoom:hover {
+                                    -ms-transform: scale(1.0);
+                                    /* IE 9 */
+                                    -webkit-transform: scale(1.0);
+                                    /* Safari 3-8 */
+                                    transform: scale(1.1);
+                                }
+                            </style>
+                            <div class="col-md-3 col-sm-12" ng-repeat="s in listCharmeNam">
+                                <a href="#" aria-label="Nước Hoa Good Charme Coco Trắng">
+                                    <img data-lazyloaded="1" src="{{s.image}}" class="zoom"
+                                        alt="Nước Hoa Good Charme Coco Trắng" />
+                                </a>
+                                <h6 class="text-center mt-3 "><a href="" class="text-dark text-decoration-none">
+                                    {{s.ten}}</a></h6>
+                                <h6 class=" ml-4 font-weight-bold" style="color: rgb(110, 111, 112);">{{s.gia|currency:"":0}}₫ &nbsp;
+                                    <a href="#" class="btnLoop view_product" data-toggle="tooltip" data-placement="left"
+                                        title="Thêm giỏ hàng"><i class="fab fa-opencart" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0)"title="Mua Ngay">
+                                        <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                </h6><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br><br><br>
+        
+    </div>
